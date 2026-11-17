@@ -19,6 +19,9 @@ jobs:
       - name: Preparar o Gradle
         uses: gradle/actions/setup-gradle@v4
 
+      - name: Dar permissão ao gradlew
+        run: chmod +x gradlew
+
       - name: Rodar o lint
         run: ./gradlew lintDebug
 
