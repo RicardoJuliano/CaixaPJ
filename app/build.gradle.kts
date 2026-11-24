@@ -6,13 +6,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.caixapj"
+    namespace = "br.com.ricardojuliano.caixapj"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.caixapj"
+        applicationId = "br.com.ricardojuliano.caixapj"
         minSdk = 26
         targetSdk = 37
         versionCode = 1

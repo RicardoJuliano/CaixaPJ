@@ -1,4 +1,4 @@
-package com.example.caixapj
+package br.com.ricardojuliano.caixapj
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
